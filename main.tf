@@ -8,6 +8,6 @@ resource "azurerm_managed_disk" "disk" {
   disk_size_gb         = var.disk_size_gb
   source_resource_id   = var.source_resource_id
   os_type              = var.os_type
-  hyper_v_generation   = var.hyper_v_generation   
+  hyper_v_generation   = var.hyper_v_generation
 
 }

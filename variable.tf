@@ -31,15 +31,15 @@ variable "name" {
 }
 
 variable "source_resource_id" {
-  type = string
+  type        = string
   description = "The self link of vm"
 }
-variable "os_type"{
-  type = string 
+variable "os_type" {
+  type        = string
   description = "The self link of vm"
 }
 variable "hyper_v_generation" {
   type        = string
   description = "The name of the disk"
-  default = "V1"
+  default     = "V1"
 }
